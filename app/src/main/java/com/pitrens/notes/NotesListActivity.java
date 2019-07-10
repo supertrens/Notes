@@ -48,7 +48,7 @@ public class NotesListActivity extends AppCompatActivity {
   private void initRecyclerView(){
     LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
     mRecyclerView.setLayoutManager(linearLayoutManager);
-    VerticalSpacingItemDecorator itemDecorator = new VerticalSpacingItemDecorator(10);
+    VerticalSpacingItemDecorator itemDecorator = new VerticalSpacingItemDecorator(12);
 
     mNoteRecyclerAdapter = new NotesRecyclerAdapter(mNotes);
     mRecyclerView.addItemDecoration(itemDecorator);
